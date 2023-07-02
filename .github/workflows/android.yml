@@ -26,4 +26,4 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: LS
-      run: ls -lh build
+      run: ls -lh build/kotlin
