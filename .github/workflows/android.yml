@@ -35,6 +35,15 @@ jobs:
           cd build
           ls -lh
     - name: LS
-      run: ls -lh app\\build\\outputs
+      run: |
+          cd app
+          cd build
+          cd outputs
+          ls -lh
     - name: LS
-      run: ls -lh app\\build\\outputs\\apk
+      run: |
+          cd app
+          cd build
+          cd outputs
+          cd apk
+          ls -lh
