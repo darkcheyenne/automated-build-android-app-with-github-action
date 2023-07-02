@@ -26,9 +26,13 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: LS
-      run: cd app & ls -lh
-    - name: LS
-      run: cd app & cd build & ls -lh
+      run: |
+          cd app
+          ls -lh
+    - name: |
+          cd app
+          cd build
+          ls -lh
     - name: LS
       run: ls -lh app\\build\\outputs
     - name: LS
