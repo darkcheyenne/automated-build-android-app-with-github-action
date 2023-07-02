@@ -29,7 +29,8 @@ jobs:
       run: |
           cd app
           ls -lh
-    - name: |
+    - name: LS
+      run: |
           cd app
           cd build
           ls -lh
