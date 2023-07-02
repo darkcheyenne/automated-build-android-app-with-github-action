@@ -28,8 +28,8 @@ jobs:
     - name: LS
       run: ls -lh app
     - name: LS
-      run: ls -lh app\build
+      run: ls -lh app\\build
     - name: LS
-      run: ls -lh app\build\outputs
+      run: ls -lh app\\build\\outputs
     - name: LS
-      run: ls -lh app\build\outputs\apk
+      run: ls -lh app\\build\\outputs\\apk
