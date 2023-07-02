@@ -38,7 +38,7 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: app/build/outputs/apk/release/github-action-automated-release.apk
-        asset_name: mything
+        asset_name: release.apk
         tag: ${{ github.ref }}
         overwrite: true
         body: "This is my release text"
