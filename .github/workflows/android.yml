@@ -28,22 +28,8 @@ jobs:
     - name: LS
       run: |
           cd app
-          ls -lh
-    - name: LS
-      run: |
-          cd app
-          cd build
-          ls -lh
-    - name: LS
-      run: |
-          cd app
-          cd build
-          cd outputs
-          ls -lh
-    - name: LS
-      run: |
-          cd app
           cd build
           cd outputs
           cd apk
+          cd release
           ls -lh
